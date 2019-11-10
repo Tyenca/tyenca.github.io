@@ -1,0 +1,280 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #bdbdbd;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+	font-size: 55px;
+	color: rgb(72, 127, 129);
+    text-align: center;  
+    margin-top: 20px;
+}
+
+nav{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #9c9c9c;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    margin-bottom: -60px;
+    margin-top: -60px;
+    width: 300px;
+    height: 250px;
+}
+
+li, a, button{
+font-family: 'Nunito', sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #ffffff;
+text-decoration: none;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.links li a{
+    transition: all 0.3s ease 0s;
+    font-family: 'Nunito', sans-serif;
+}
+.links li a:hover{
+    color: brown;
+}
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: red;
+}
+
+.logoHeader {
+    height: 120px;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+.amsterdam1 { 
+    float: left; 
+    width: 300px ;
+    height:150px ;
+    transform: rotate(90deg);
+    padding-top: 70px;
+}
+
+.amsterdam2 { 
+    float: right; 
+    width: 300px ;
+    height:150px ;
+    transform: rotate(90deg);
+    padding-bottom: 70px;
+}
+.adam p{
+    font-family: 'Nunito', sans-serif;
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+}
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 13px;
+    margin-bottom: -5px;
+}
+.adam{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 20px 20px 20px; 
+    box-sizing: border-box;
+    background: #dbdbdb;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    width: 900px;
+    margin-bottom: -90px;
+   
+}
+.bolo p{
+    font-family: 'Nunito', sans-serif;
+}
+.bolo ul li{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 17px;
+}
+.adam footer{
+    margin-top: 10px;
+}
+.adam footer a{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+.bolo{
+    top: 50%;
+    right: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: block;
+    background: #dbdbdb;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    width: 900px;
+    padding-left: 20px;
+    margin: auto;
+
+}
+.bolo ul li{
+    color: black;
+}
+.bolo footer{
+    margin-top: 10px;
+}
+.bolo footer a{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+.bolo footer:hover{
+    
+    color: black;
+}
+.sportclubs{
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 40px auto 0 auto;
+    padding-bottom: 1400px;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.sportclubs h3{
+    margin-top: 25px;
+}
+.sportclubs ul{
+    
+    position: absolute;
+    width: 1200px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    right: 70px;
+
+}
+.sportclubs ul li .sport{
+    width: 150px;
+    height: 150px;
+}
+.sportclubs ul li .sport:hover
+{
+    transform: scale(1.8);  
+    
+}
+.sportclubs ul li{
+    display: flex;
+    background: cadetblue;
+    padding: 10px 20px;
+    color: white;
+    margin: 10px 0;
+    transition: .5s;
+}
+.sportclubs ul li span:nth-child(1)
+{   margin: auto;
+    width: 200px;
+}
+.sportclubs ul li span:nth-child(2)
+{
+    width: 600px;
+}
+.sportclubs ul li:hover
+{
+    transform: scale(1.06);
+    background: red;
+}
+h4{
+    padding-bottom: 5px;
+}
+.contact{
+    margin-top: 600px;
+}
+.contact{
+    background: #dbdbdb;
+    padding: 40px 0;
+}
+.contact h3{
+    justify-content: center;
+}
+legend{
+    margin-left: 46%;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #9c9c9c;
+    padding: 20px 40px;
+    outline: none;
+    color: black;
+    transition: 0.5s;
+}
+.contact-form-text:hover{
+    box-shadow: 0 0 10px 4px cadetblue;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 125px;
+}
+.contact-form-button{
+    float: left;
+    position: relative;
+    left: 38%;
+    border: 0;
+    background: cadetblue;
+    color: white;
+    
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.contact-form-button:hover{
+    background: red;
+}
+.contact footer{
+    font-family: 'Nunito', sans-serif;
+}
+.required{
+    float: left;
+}
